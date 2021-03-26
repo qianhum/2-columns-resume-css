@@ -1,0 +1,70 @@
+@media print {
+  html,
+  body {
+    height: 100%;
+  }
+  html {
+    font-size: 10pt;
+  }
+}
+body {
+  display: flex;
+  line-height: 1.6;
+}
+aside {
+  background: #e0ebf5;
+  padding: 50px;
+  width: 300px;
+}
+aside h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.avatar {
+  border-radius: 50%;
+  width: 180px;
+}
+.info {
+  line-height: 2;
+  margin-top: 20px;
+}
+.info li {
+  width: 200px;
+}
+.emoji {
+  vertical-align: middle;
+  height: 1.4em;
+}
+main {
+  padding: 50px;
+}
+main h1 {
+  background-color: #3b82f6;
+  background-image: linear-gradient(to right, #10b981, #3b82f6);
+  color: white;
+  padding: 30px;
+  border-radius: 4px;
+  text-align: center;
+}
+main h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 8px;
+  background: #e0ebf5;
+  border-radius: 4px;
+}
+main h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.with-date {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
